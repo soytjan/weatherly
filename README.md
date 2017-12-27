@@ -1,3 +1,4 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/soytjan/weatherly.png?columns=all)](https://waffle.io/soytjan/weatherly?utm_source=badge)
 # React Starter Kit
 
 To install the dependencies:
