@@ -1,0 +1,6 @@
+
+.Search {
+  grid-column: 1/11;
+  grid-row: 2;
+  background-color: purple;
+}
