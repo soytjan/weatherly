@@ -4,6 +4,7 @@
 }
 
 .App {
+  font-family: 'Roboto', sans-serif;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 5vh 5vh 40vh 40vh 10vh;
