@@ -2,5 +2,22 @@
   font-family: 'cabanaregular', sans-serif;
   grid-column: 1/11;
   grid-row: 1;
-  background-color: lightblue;
+  background-color: #72D1D5;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.header-title h1 {
+  font-size: 48px;
+}
+
+.logo {
+  height: 46px;
+  padding-left: 12px;
 }

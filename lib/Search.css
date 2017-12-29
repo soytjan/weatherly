@@ -4,3 +4,11 @@
   grid-row: 2;
   background-color: purple;
 }
+
+#search-box {
+  height: 45px;
+  width: 500px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
