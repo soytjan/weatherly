@@ -6,10 +6,10 @@
 We built out a wireframe for both the desktop and mobile version using Sketch.
 
 ### Desktop Comp 
-![weatherly-desktop-wireframe](../assets/desktop-comp.png)
+![weatherly-desktop-wireframe](./assets/desktop-comp.png)
 
 ### Mobile Comp
-![weatherly-mobile-wireframe](../assets/mobile-comp.png)
+![weatherly-mobile-wireframe](./assets/mobile-comp.png)
 
 To install the dependencies:
 
