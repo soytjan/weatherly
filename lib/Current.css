@@ -1,5 +1,58 @@
+/*Nest the tags in Current*/
+
 .Current {
   grid-column: 1/4;
   grid-row: 3;
-  background-color: blue;
+  border: 2px solid #979797;
+  border-radius: 50px;
+}
+
+.Current h2 {
+  font-family: 'cabanaregular', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0 8px;
+}
+
+.Current h3 {
+  font-size: 36px;
+  padding-bottom: 5px;
+}
+
+.Current h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.Current h5 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.Current p {
+  line-height: 120%;
+}
+
+.Current img {
+  height: 112px;
+  padding: 10px 0 0;
+}
+
+.Current .bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  margin: 0 15px;
+  height: 350px;
+}
+
+.Current .high-low-container {
+  width: 145px;
+}
+
+.Current .temp {
+  font-weight: 300;
 }

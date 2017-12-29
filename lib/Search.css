@@ -8,6 +8,7 @@
   margin: 20px;
 }
 
+/* Can nest this inside Search {} in SASS*/
 .Search p {
   font-size: 24px;
   font-weight: 300;
@@ -22,7 +23,6 @@
   font-weight: 300;
   color: #979797;
   background-color: transparent;
-/*  border-radius: 20px;*/
   border: none;
 }
 
