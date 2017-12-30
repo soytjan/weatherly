@@ -1,10 +1,11 @@
 /*Nest the tags in Current*/
 
 .Current {
-  grid-column: 1/4;
+  grid-column: 1/5;
   grid-row: 3;
   border: 2px solid #979797;
   border-radius: 50px;
+  margin-left: 40px;
 }
 
 .Current h3 {
