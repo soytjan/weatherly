@@ -16,6 +16,13 @@ p {
   text-align: center;
 }
 
+.box-header {
+  font-family: 'cabanaregular', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0 8px;
+}
+
 .date {
   color: #979797;
   font-size: 18px;
@@ -23,6 +30,11 @@ p {
 
 .day {
   font-weight: 400;
+}
+
+.bottom-container {
+  border-top: 1px solid black;
+  margin: 0 20px;
 }
 
 .high-low-container {

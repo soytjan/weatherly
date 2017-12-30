@@ -7,13 +7,6 @@
   border-radius: 50px;
 }
 
-.Current h2 {
-  font-family: 'cabanaregular', sans-serif;
-  font-size: 40px;
-  text-align: center;
-  padding: 20px 0 8px;
-}
-
 .Current h3 {
   font-size: 36px;
   padding-bottom: 5px;
@@ -44,8 +37,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid black;
-  margin: 0 15px;
+  
   height: 350px;
 }
 

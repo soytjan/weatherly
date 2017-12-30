@@ -3,3 +3,8 @@
   grid-row: 4;
   background-color: yellow;
 }
+
+.TenDay h2 {
+  font-size: 40px;
+  font-family: 'cabanaregular', sans-serif;
+}
