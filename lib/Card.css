@@ -1,9 +1,9 @@
 /*Change font-family to variable and nest, also we might have to adjust how the card is set up if the data that is entered for the conditions is too much. There's a chance that there might be some overflow into the next line. We could either set the height of the h3 container on line 12 of the .js file or potentially change how it's flexed*/
 
-/*ALSO for the WIDTH I don't know if we should change that and put that on the grid...not sure */
+/*ALSO for the WIDTH I had it in percentages, but changed it to a fixed px width. I don't know if we should change that and put that on the grid...not sure */
 
 .Card {
-  width: 20%;
+  width: 180px;
   height: 265px;
   display: flex;
   flex-direction: column;
