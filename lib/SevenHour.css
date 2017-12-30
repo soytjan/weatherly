@@ -1,5 +1,6 @@
 .SevenHour {
   grid-column: 4/11;
   grid-row: 3;
-  background-color: green;
+  border: 2px solid #979797;
+  border-radius: 50px;
 }
