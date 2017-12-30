@@ -1,11 +1,16 @@
 .TenDay {
   grid-column: 1/11;
   grid-row: 4;
-  background-color: yellow;
-  margin: 0 40px;
+  margin: 20px 40px 10px 40px;
 }
 
 .TenDay h2 {
   font-size: 40px;
   font-family: 'cabanaregular', sans-serif;
+}
+
+.cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 950px;
 }
