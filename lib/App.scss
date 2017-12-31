@@ -8,7 +8,7 @@
   font-weight: 300;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: auto auto 445px 550px 50px;
+  grid-template-rows: repeat(5, auto);
   grid-gap: 10px;
 }
 
