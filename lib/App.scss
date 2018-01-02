@@ -4,12 +4,12 @@
 }
 
 .App {
+  display: grid;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
-  display: grid;
+  grid-gap: 10px;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-gap: 10px;
 }
 
 p {
@@ -19,12 +19,12 @@ p {
 .box-header {
   font-family: 'cabanaregular', sans-serif;
   font-size: 40px;
-  text-align: center;
   padding: 20px 0 8px;
+  text-align: center;
 }
 
 .date {
-  color: #979797;
+  color: dark-gray;
   font-size: 18px;
 }
 
@@ -44,9 +44,9 @@ p {
 }
 
 .center {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 
