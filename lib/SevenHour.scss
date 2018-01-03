@@ -1,7 +1,9 @@
+@import '../css/variables';
+
 .SevenHour {
   grid-column: 5/10;
   grid-row: 3;
-  border: 2px solid #979797;
+  border: 2px solid $dark-gray;
   border-radius: 50px;
   margin-left: 10px;
 }

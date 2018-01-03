@@ -1,3 +1,5 @@
+@import '../css/variables';
+
 .TenDay {
   grid-column: 2/10;
   grid-row: 4;
@@ -8,7 +10,7 @@
 
 .TenDay h2 {
   font-size: 40px;
-  font-family: 'cabanaregular', sans-serif;
+  font-family: $header-font;
 }
 
 .cards-grid {
