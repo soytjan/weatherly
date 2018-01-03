@@ -1,10 +1,11 @@
-.wrapper {
-  height: 100%;
-  width: 100%;
+@import '../css/variables';
+
+p {
+  text-align: center;
 }
 
 .App {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: $main-font;
   font-weight: 300;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -12,35 +13,16 @@
   grid-gap: 10px;
 }
 
-p {
-  text-align: center;
-}
-
 .box-header {
-  font-family: 'cabanaregular', sans-serif;
+  font-family: $header-font;
   font-size: 40px;
   text-align: center;
   padding: 20px 0 8px;
 }
 
-.date {
-  color: #979797;
-  font-size: 18px;
-}
-
-.day {
-  font-weight: 400;
-}
-
 .bottom-container {
   border-top: 1px solid black;
   margin: 0 25px;
-}
-
-.high-low-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .center {
@@ -49,5 +31,35 @@ p {
   align-items: center;
 }
 
+.date {
+  color: $dark-gray;
+  font-size: 18px;
+}
 
+.day {
+  font-weight: 400;
+}
+
+.high-low-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  .App {
+    grid-template-columns: 30px repeat(8, 1fr) 30px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .App {
+    grid-template-rows: repeat(6, auto);
+  }
+}
 

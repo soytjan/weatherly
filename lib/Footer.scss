@@ -1,17 +1,25 @@
-/*Can add in SASS with color and nest withing Footer class*/
+@import '../css/variables';
 
 .Footer {
   grid-column: 1/11;
   grid-row: 5;
-  background-color: #72D1D5;
+  background-color: $turquoise;
   display: flex;
   align-items: center;
+  height: 40px;
+  justify-content: center;
+
+  p {
+    font-size: 18px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-weight: 300;
+  }
 }
 
-.Footer p {
-  font-size: 18px;
-  color: white;
-  margin: auto;
-  text-align: center;
-  font-weight: 300;
+@media screen and (max-width: 780px) {
+  .Footer {
+    grid-row: 6;
+  }
 }
