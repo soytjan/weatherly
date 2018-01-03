@@ -6,6 +6,7 @@
   border: 2px solid $dark-gray;
   border-radius: 50px;
   margin-left: 10px;
+  padding-bottom: 20px;
 }
 
 .hours-grid {
@@ -14,4 +15,11 @@
   flex-direction: column;
   justify-content: space-between;
   height: 350px;
+}
+
+@media screen and (max-width: 780px) {
+  .SevenHour {
+    grid-row: 4;
+    grid-column: 2/10;
+  }
 }

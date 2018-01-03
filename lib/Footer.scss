@@ -17,3 +17,9 @@
     font-weight: 300;
   }
 }
+
+@media screen and (max-width: 780px) {
+  .Footer {
+    grid-row: 6;
+  }
+}

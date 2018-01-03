@@ -45,3 +45,9 @@
 .regular {
   font-weight: $regular;
 }
+
+.weather-box {
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
