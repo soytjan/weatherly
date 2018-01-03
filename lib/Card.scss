@@ -3,18 +3,18 @@
 /*ALSO for the WIDTH I had it in percentages, but changed it to a fixed px width. I don't know if we should change that and put that on the grid...not sure */
 
 .Card {
-  width: 180px;
-  height: 265px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #FFF;
-  border-radius: 50px;
-  border: 2px solid #979797;
-  padding: 20px 0;
-  line-height: 120%;
-  margin: 2% 5px;
+    width: 19%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 50px;
+    border: 2px solid #979797;
+    padding: 30px 10px;
+    line-height: 120%;
+    margin-top: 2%;
 }
 
 .Card img {
