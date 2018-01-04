@@ -1,6 +1,6 @@
 @import '../css/variables';
 
-.Card {
+.Day {
     width: 19%;
     height: 300px;
     display: flex;
@@ -40,14 +40,42 @@
   .high-low-container {
     width: 100px;
   }
+
+  .day-weather {
+    height: 56px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.Hour {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  img {
+    height: 26px;
+  }
+  
+  .img-box {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hour-description {
+    width: 120px;
+  }
+}
+
+
+.hour-time {
+  width: 70px;
 }
 
 .regular {
   font-weight: $regular;
 }
 
-.weather-box {
-  height: 56px;
-  display: flex;
-  align-items: center;
-}
