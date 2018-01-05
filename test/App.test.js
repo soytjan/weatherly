@@ -1,6 +1,7 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
 import App from '../lib/App.js';
+import mockData from './mockData.js';
 
 describe('App', () => {
   let wrapper;
@@ -19,7 +20,7 @@ describe('App', () => {
   });
   
   it('should render the Welcome, Search, Current, SevenHour and TenDay component', () => {
-    
+    //setstate to true for welcome.
     expect(wrapper.find('Search').length).toEqual(0);
     expect(wrapper.find('Welcome').length).toEqual(0);
     expect(wrapper.find('Current').length).toEqual(0);
@@ -27,18 +28,23 @@ describe('App', () => {
     expect(wrapper.find('TenDay').length).toEqual(0);
   });
 
-  it.skip('should have default state of an empty array triviaList', () => {
+  it('should have default state undefined for state.data', () => {
 
-    expect(wrapper.state().triviaList).toEqual([]);
+    expect(wrapper.state().data).toEqual(undefined);
   });
 
-  it.skip('should update state', () => {
-    expect(wrapper.state().triviaList).toEqual([]);
+  it('should update state', () => {
+    expect(wrapper.state().data).toEqual(undefined);
 
-    wrapper.setState({ triviaList: mockData.results });
+    wrapper.setState({ data: mockData });
 
-    expect(wrapper.state().triviaList).toEqual(mockData.results);
-    expect(wrapper.state().triviaList.length).toEqual(10);
+    expect(wrapper.state().data).toEqual(mockData);
+    console.log(wrapper.state().data)
+    expect(wrapper.state().data.response.features).toEqual({
+      conditions: 1,
+      hourly: 1,
+      forecast10day: 1,
+    })
   });
 
 });
