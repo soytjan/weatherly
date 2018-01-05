@@ -8,9 +8,17 @@ p {
   font-family: $main-font;
   font-weight: 300;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(5, auto);
   grid-gap: 10px;
+}
+
+.App-main {
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 70px repeat(3, auto) 40px;
+}
+
+.App-welcome {
+  grid-template-rows: 70px repeat(3, auto) 40px;
+  height: 100vh;
 }
 
 .box-header {
