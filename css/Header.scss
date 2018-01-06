@@ -1,10 +1,10 @@
-/*Can change font family and background-color to SASS*/
+@import './variables';
 
 .Header {
-  font-family: 'cabanaregular', sans-serif;
+  font-family: $header-font;
   grid-column: 1/11;
   grid-row: 1;
-  background-color: #72D1D5;
+  background-color: $turquoise;
 }
 
 .header-title {
@@ -13,11 +13,12 @@
   justify-content: center;
   align-items: center;
   height: 70px;
+  
+  h1 {
+    font-size: 48px;
+  }
 }
 
-.header-title h1 {
-  font-size: 48px;
-}
 
 .logo {
   height: 46px;

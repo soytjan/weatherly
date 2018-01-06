@@ -1,0 +1,80 @@
+@import './variables';
+
+.Day {
+    width: 19%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 50px;
+    border: 2px solid $dark-gray;
+    padding: 30px 10px;
+    line-height: 120%;
+    margin-top: 2%;
+  
+  h2 {
+    font-family: $header-font;
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 120%;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  img {
+    height: 80px;
+  }
+  
+  .date {
+    padding-top: 7px;
+  }
+  
+  .high-low-container {
+    width: 100px;
+  }
+
+  .day-weather {
+    height: 56px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.Hour {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  img {
+    height: 26px;
+  }
+  
+  .img-box {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hour-weather {
+    width: 120px;
+  }
+}
+
+.hour-time {
+  width: 70px;
+}
+
+.regular {
+  font-weight: $regular;
+}
+

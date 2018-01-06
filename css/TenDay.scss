@@ -1,0 +1,26 @@
+@import './variables';
+
+.TenDay {
+  grid-column: 2/10;
+  grid-row: 4;
+  margin: 20px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.TenDay h2 {
+  font-size: 40px;
+  font-family: $header-font;
+}
+
+.cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 780px) {
+  .TenDay {
+    grid-row: 5;
+  }
+}
