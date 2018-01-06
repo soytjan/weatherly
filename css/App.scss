@@ -55,19 +55,19 @@ p {
   justify-content: space-between;
 }
 
-.wrapper {
-  height: 100%;
-  width: 100%;
-}
+// .wrapper {
+//   height: 100%;
+//   width: 100%;
+// }
 
 @media screen and (max-width: 950px) {
-  .App {
+  .App-main {
     grid-template-columns: 30px repeat(8, 1fr) 30px;
   }
 }
 
 @media screen and (max-width: 780px) {
-  .App {
+  .App-main {
     grid-template-rows: repeat(6, auto);
   }
 }
