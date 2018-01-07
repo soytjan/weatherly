@@ -61,6 +61,6 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "@goodalls/complete-me": "git+https://github.com/goodalls/complete-me.git"
+    "@goodalls/complete-me-master": "git+https://github.com/goodalls/complete-me-master.git"
   }
 }
