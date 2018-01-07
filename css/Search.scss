@@ -1,5 +1,21 @@
 @import './variables';
 
+.button {
+  font-family: $main-font;
+  font-size: 24px;
+  color: white;
+  border-radius: 15px;
+  font-weight: $light;
+  margin-left: 10px;
+  border: none;
+  background-color: $turquoise;
+  padding: 0 10px;
+
+  &:hover { 
+    background-color: $blue; 
+  }
+}
+
 .Search {
   grid-column: 1/11;
   grid-row: 2;
