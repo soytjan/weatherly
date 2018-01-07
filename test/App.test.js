@@ -3,7 +3,7 @@ import { mount, shallow } from 'enzyme';
 import App from '../lib/App.js';
 import mockData from './mockData.js';
 
-describe('App', () => {
+describe.skip('App', () => {
   let wrapper;
 
   beforeEach(() => {
