@@ -28,10 +28,7 @@ describe('TenDay', () => {
 
   it('should mount 10 Card components', () => {
     wrapper = mount(<TenDay days={mockData.days} icon={mockIcons} />);
-    // console.log('mount', wrapper.debug());
 
-    // find 10 h4s
-    // find that the first h4 has text matching the expected info from our mock data
     expect(wrapper.find('h2').length).toEqual(10);
     expect(wrapper.find('h2').first().text()).toEqual('Wednesday');
   })
