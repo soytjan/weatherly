@@ -35,6 +35,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  position: relative;
 }
 
 .search-container {
@@ -45,4 +46,8 @@
 .fa-search {
   padding: 10px;
   color: $dark-gray;
+}
+
+.search-bar-content {
+  text-transform: capitalize;
 }
