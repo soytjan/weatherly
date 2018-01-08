@@ -2,9 +2,6 @@ import React from 'react';
 import { shallow, mount } from 'enzyme';
 import Search from '../lib/Search.js';
 
-// const props = { myFunction: jest.fn() } 
- // shallow(<App {...props}>) 
- // expect(wrapper.props.myFunction()).toHaveBeenCalledTimes(number)
 describe('Search', () => {
   const mockFn = jest.fn();
   let wrapper;

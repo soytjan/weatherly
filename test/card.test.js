@@ -22,7 +22,7 @@ describe('Card', () => {
       icon={mockIcons} 
       />);
 
-    wrapperHour = mount(<Card 
+    wrapperHour = shallow(<Card 
       key='0' 
       styleName='Hour'
       hour={mockData.hours[0].hour}
@@ -55,6 +55,8 @@ describe('Card', () => {
   });
 
   it('should return hour if Card is used in SevenHour component', () => {
-
+    expect(wrapperHour.instance().props.styleName).toEqual('Hour');
+    expect(wrapperHour.find('p').length).toEqual(2);
+    expect(wrapperHour.find('p').first().text()).toEqual(mockData.hours[0].hour)
   });
 });
