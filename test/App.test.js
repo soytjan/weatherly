@@ -3,14 +3,14 @@ import mockData from './mockData.js';
 import App from '../lib/App.js';
 import React from 'react';
 
-describe.skip('App', () => {
+describe('App', () => {
   let wrapper;
 
   beforeEach(() => {
     wrapper = shallow(<App />)
   })
-  it('should exist', () => {
 
+  it('should exist', () => {
     expect(wrapper).toBeDefined();
   });
 
