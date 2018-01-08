@@ -1,6 +1,6 @@
-import React from 'react';
-import { shallow, mount } from 'enzyme';
 import Welcome from '../lib/Welcome.js';
+import { shallow, mount } from 'enzyme';
+import React from 'react';
 
 // How do we test for the props and the method that is being passed in? 
 describe('Welcome', () => {

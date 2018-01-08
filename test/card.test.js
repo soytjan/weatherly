@@ -4,6 +4,7 @@ import Card from '../lib/Card.js';
 import mockData from './testCleanMockData.js';
 import mockIcons from './testIcons.js';
 
+
 describe('Card', () => {
   let wrapperDay;
   let wrapperHour;

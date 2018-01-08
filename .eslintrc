@@ -55,7 +55,7 @@
       "error",
       "always"
     ],
-    "no-template-curly-in-string": "error",
+    "no-template-curly-in-string": "off",
     "object-shorthand": [
       "error",
       "always"

@@ -1,8 +1,8 @@
-import React from 'react';
-import { shallow, mount } from 'enzyme';
-import TenDay from '../lib/TenDay.js';
 import mockData from './testCleanMockData.js';
+import { shallow, mount } from 'enzyme';
 import mockIcons from './testIcons.js';
+import TenDay from '../lib/TenDay.js';
+import React from 'react';
 
 // How do we test the props.icons??
 describe('TenDay', () => {
