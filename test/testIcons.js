@@ -1,0 +1,20 @@
+module.exports = {
+  mostlycloudy: { black: '../assets/sunny-cloud-icon.svg', 
+                  blue: '../assets/sunny.gif' },
+  chancerain: { black: '../assets/rain-sun-icon.svg', 
+                blue: '../assets/rain-sun.gif' },
+  partlycloudy: { black: '../assets/cloudy-icon.svg', 
+                  blue: '../assets/cloudy.gif' },
+  cloudy: { black: '../assets/cloudy-icon.svg', 
+            blue: '../assets/cloudy.gif' },
+  clear: { black: '../assets/sun-icon.svg', 
+            blue: '../assets/sunny.gif' },
+  snow: { black: '../assets/snow-icon.svg',   
+          blue: '../assets/snow.gif' },
+  rain: { black: '../assets/rain-icon.svg', 
+          blue: '../assets/rain.gif' },
+  fog: {  black: '../assets/cloudy-icon.svg',
+          blue: '../assets/cloudy.gif' }, 
+  sleet: { black: '../assets/snow-icon.svg',
+            blue: '../assets/snow.gif'}     
+};
