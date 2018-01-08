@@ -1,7 +1,7 @@
-import React from 'react';
 import { mount, shallow } from 'enzyme';
-import App from '../lib/App.js';
 import mockData from './mockData.js';
+import App from '../lib/App.js';
+import React from 'react';
 
 describe.skip('App', () => {
   let wrapper;
