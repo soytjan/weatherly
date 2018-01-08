@@ -61,4 +61,8 @@ describe('Search', () => {
     expect(wrapper.state()).toEqual({ city: '92620', suggestedCities: ['92620'] });
   });
 
+  it('should run function when button is clicked', () => {
+    
+  })
+
 });
