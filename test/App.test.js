@@ -3,10 +3,10 @@ import mockData from './testCleanMockData.js';
 import App from '../lib/App.js';
 import React from 'react';
 
-global.localStorage = {
-  getState: ,
-  setState: 
-}
+// global.localStorage = {
+//   getState: ,
+//   setState: 
+// }
 
 describe('App', () => {
   let wrapper;
