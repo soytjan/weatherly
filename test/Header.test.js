@@ -2,7 +2,7 @@ import { shallow, mount } from 'enzyme';
 import Header from '../lib/Header.js';
 import React from 'react';
 
-describe.only('Header', () => {
+describe('Header', () => {
   let wrapper = shallow(<Header />);
 
   it('should exist', () => {
