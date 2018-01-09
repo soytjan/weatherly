@@ -59,7 +59,7 @@
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
   .Current {
     grid-column: 2/10;
     border: none;
@@ -75,6 +75,11 @@
   }
 }
 
+@media screen and (max-width: 620px) {
+  .Current {
+    padding-bottom: 0;
+  }
+}
 
 
 

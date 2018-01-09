@@ -17,9 +17,17 @@
   height: 350px;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
   .SevenHour {
     grid-row: 4;
     grid-column: 2/10;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .SevenHour {
+    border: none;
+
   }
 }

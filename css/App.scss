@@ -66,15 +66,25 @@ p {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1055px) {
   .App-main {
     grid-template-columns: 30px repeat(8, 1fr) 30px;
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
   .App-main {
     grid-template-rows: repeat(6, auto);
   }
+}
+
+@media screen and (max-width: 480px) {
+  .bottom-container {
+    margin: 0;
+  }
+
+  .App-main {
+    grid-template-columns: 10px repeat(8, 1fr) 10px;
+  }  
 }
 
