@@ -13,8 +13,6 @@
   }
 }
 
-
-
 .cards-grid {
   display: flex;
   flex-wrap: wrap;
@@ -35,5 +33,13 @@
 @media screen and (max-width: 400px) {
   .cards-grid {
     justify-content: center;
+  }
+
+  .TenDay {
+    h1 {
+      border-bottom: 1px solid black;
+      margin: 0 0 12px;
+      padding-bottom: 8px;
+    }
   }
 }
