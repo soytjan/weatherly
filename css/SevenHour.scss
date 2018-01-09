@@ -1,20 +1,20 @@
 @import './variables';
 
 .SevenHour {
+  border-radius: 50px;
+  border: 2px solid $dark-gray;
   grid-column: 5/10;
   grid-row: 3;
-  border: 2px solid $dark-gray;
-  border-radius: 50px;
   margin-left: 10px;
   padding-bottom: 25px;
 }
 
 .hours-grid {
-  padding: 15px 25px 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 350px;
+  justify-content: space-between;
+  padding: 15px 25px 5px;
 }
 
 @media screen and (max-width: 900px) {
@@ -28,6 +28,5 @@
 @media screen and (max-width: 620px) {
   .SevenHour {
     border: none;
-
   }
 }
