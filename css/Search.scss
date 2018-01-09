@@ -38,7 +38,7 @@
   font-size: 24px;
   font-weight: 300;
   color: $dark-gray;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   border: none;
   text-transform: capitalize;
 }
@@ -74,7 +74,7 @@
   }
 
   #search-box {
-    width: 350px;
+    width: 300px;
   }
 }
 
@@ -82,10 +82,12 @@
   .button {
     font-size: 20px;
     height: 35px;
+    margin-left: 0;
   }
 
   #search-box {
     font-size: 20px;
+    width: 250px;
   }
 
   .search-bar {
@@ -97,6 +99,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 82px;
   }
 }
