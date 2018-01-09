@@ -5,7 +5,7 @@
   grid-row: 3;
   border: 2px solid #979797;
   border-radius: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   margin-right: 10px;
 
   h3 {
@@ -59,7 +59,7 @@
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
   .Current {
     grid-column: 2/10;
     border: none;
@@ -75,6 +75,11 @@
   }
 }
 
+@media screen and (max-width: 620px) {
+  .Current {
+    padding-bottom: 0;
+  }
+}
 
 
 

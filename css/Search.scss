@@ -40,6 +40,7 @@
   color: $dark-gray;
   background-color: transparent;
   border: none;
+  text-transform: capitalize;
 }
 
 .search-bar {
@@ -65,4 +66,37 @@
 
 .search-bar-content {
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 620px) {
+  .search-bar {
+    width: 350px;
+  }
+
+  #search-box {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .button {
+    font-size: 20px;
+    height: 35px;
+  }
+
+  #search-box {
+    font-size: 20px;
+  }
+
+  .search-bar {
+    width: 300px;
+    height: 35px;
+  }
+
+  .search-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+  }
 }
