@@ -11,6 +11,15 @@ We built out a wireframe for both the desktop and mobile version using Sketch.
 ### Mobile Comp
 ![weatherly-mobile-wireframe](./assets/mobile-comp.png)
 
+### Icons
+
+thanks to 
+[ourdesignz](http://www.ourdesignz.com/weather-icon/) and 
+[Freepik](https://www.freepik.com/free-vector/weather-icons_1196720.htm#term=weather%20icons&page=1&position=10
+)
+
+
+
 To install the dependencies:
 
 ```
