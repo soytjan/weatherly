@@ -7,6 +7,7 @@ import React from 'react';
 //   getState: ,
 //   setState: 
 // }
+// SEE SEARCH TEST
 
 describe('App', () => {
   let wrapper;
@@ -55,8 +56,8 @@ describe('App', () => {
     expect(wrapper.state().data).toEqual(mockData);
   });
 
-  it('should store data in local storage', () => {
+  // it('should store data in local storage', () => {
 
-  })
+  // })
 
 });
