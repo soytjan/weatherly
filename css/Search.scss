@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables";
 
 .button {
   font-family: $main-font;
@@ -11,8 +11,8 @@
   background-color: $turquoise;
   padding: 0 10px;
 
-  &:hover { 
-    background-color: $blue; 
+  &:hover {
+    background-color: $blue;
   }
 }
 

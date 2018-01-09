@@ -1,19 +1,19 @@
-@import './variables';
+@import "./variables";
 
 .Day {
-    width: 19%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFF;
-    border-radius: 50px;
-    border: 2px solid $dark-gray;
-    padding: 30px 10px;
-    line-height: 120%;
-    margin-top: 2%;
-  
+  width: 19%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 2px solid $dark-gray;
+  padding: 30px 10px;
+  line-height: 120%;
+  margin-top: 2%;
+
   h2 {
     font-family: $header-font;
     font-size: 36px;
@@ -24,19 +24,19 @@
     text-align: center;
     line-height: 120%;
   }
-  
+
   h4 {
     font-size: 18px;
   }
-  
+
   img {
     height: 80px;
   }
-  
+
   .date {
     padding-top: 7px;
   }
-  
+
   .high-low-container {
     width: 100px;
   }
@@ -54,11 +54,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+
   img {
     height: 26px;
   }
-  
+
   .img-box {
     width: 40px;
     display: flex;
@@ -90,4 +90,3 @@
     margin-bottom: 10px;
   }
 }
-

@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables";
 
 .Header {
   font-family: $header-font;
@@ -13,12 +13,11 @@
   justify-content: center;
   align-items: center;
   height: 70px;
-  
+
   h1 {
     font-size: 48px;
   }
 }
-
 
 .logo {
   height: 46px;

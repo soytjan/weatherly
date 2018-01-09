@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables";
 
 p {
   text-align: center;
@@ -55,11 +55,6 @@ p {
   justify-content: space-between;
 }
 
-// .wrapper {
-//   height: 100%;
-//   width: 100%;
-// }
-
 @media screen and (max-width: 1500px) {
   .App-main {
     grid-template-columns: 0.5fr repeat(8, 1fr) 0.5fr;
@@ -85,6 +80,5 @@ p {
 
   .App-main {
     grid-template-columns: 10px repeat(8, 1fr) 10px;
-  }  
+  }
 }
-
