@@ -75,7 +75,7 @@ describe('Current', () => {
 
   it('should have the first h4 equal to and h4 last ', () => {
     expect(wrapper.find('h4').first().text()).toEqual("Wednesday");
-    expect(wrapper.find('h4').last().text()).toEqual("LOW32°F");
+    expect(wrapper.find('h4').last().text()).toEqual("LOW32 °F");
   });
 
 });
