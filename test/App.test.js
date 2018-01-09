@@ -3,18 +3,12 @@ import mockData from './testCleanMockData.js';
 import App from '../lib/App.js';
 import React from 'react';
 
-// global.localStorage = {
-//   getState: ,
-//   setState: 
-// }
-// SEE SEARCH TEST
-
 describe('App', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<App />)
-  })
+    wrapper = shallow(<App />);
+  });
 
   it('should exist', () => {
     expect(wrapper).toBeDefined();
@@ -56,8 +50,7 @@ describe('App', () => {
     expect(wrapper.state().data).toEqual(mockData);
   });
 
-  // it('should store data in local storage', () => {
-
-  // })
-
+  it('should format user input for api call', () => {
+    expect((wrapper.instance().buildCityHtml('Denver, CO'))).toEqual('CO/Denver');
+  });
 });
