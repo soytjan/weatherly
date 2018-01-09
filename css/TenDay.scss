@@ -1,15 +1,15 @@
 @import './variables';
 
 .TenDay {
+  display: flex;
+  flex-direction: column;
   grid-column: 2/10;
   grid-row: 4;
   margin: 20px 0 10px 0;
-  display: flex;
-  flex-direction: column;
 
   h1 {
-    font-size: 40px;
     font-family: $header-font;
+    font-size: 40px;
   }
 }
 

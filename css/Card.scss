@@ -1,18 +1,18 @@
 @import './variables';
 
 .Day {
-    width: 19%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     background-color: #FFF;
     border-radius: 50px;
     border: 2px solid $dark-gray;
-    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
     line-height: 120%;
     margin-top: 2%;
+    padding: 30px 10px;
+    width: 19%;
   
   h2 {
     font-family: $header-font;
@@ -21,8 +21,8 @@
 
   h3 {
     font-size: 24px;
-    text-align: center;
     line-height: 120%;
+    text-align: center;
   }
   
   h4 {
@@ -42,27 +42,27 @@
   }
 
   .day-weather {
-    height: 56px;
-    display: flex;
     align-items: center;
+    display: flex;
+    height: 56px;
   }
 }
 
 .Hour {
-  font-size: 18px;
+  align-items: center;
   display: flex;
   flex-direction: row;
+  font-size: 18px;
   justify-content: space-between;
-  align-items: center;
   
   img {
     height: 26px;
   }
   
   .img-box {
-    width: 40px;
     display: flex;
     justify-content: center;
+    width: 40px;
   }
 
   .hour-weather {
@@ -86,8 +86,8 @@
 
 @media screen and (max-width: 400px) {
   .Day {
-    width: 70%;
     margin-bottom: 10px;
+    width: 70%;
   }
 }
 
