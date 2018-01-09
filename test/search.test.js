@@ -2,6 +2,18 @@ import { shallow, mount } from 'enzyme';
 import Search from '../lib/Search.js';
 import React from 'react';
 
+// global.localStorage = {
+//   getItem(keyword) {
+//     if (!global.localStorage[keyword]) {
+//       return null;
+//     }
+//     return Json.stringify(global.localStorage[keyword])
+//   },
+//   setItem(keyword, value) {
+//     global.localStorage[keyword] = value;
+//   }
+// }
+
 describe('Search', () => {
   const mockFn = jest.fn();
   let wrapper;
@@ -62,7 +74,10 @@ describe('Search', () => {
   });
 
   it('should run function when button is clicked', () => {
-    
+    wrapper.find('input').simulate('change', { target: {value: '92620'} })
+    wrapper.find('button').simulate('click');
+
+    expect(mockFn.mock.calls.length).toEqual(1);
   })
 
 });
