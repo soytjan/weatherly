@@ -65,9 +65,8 @@ Amanda Tjan and Jeff Goodall are the software developers for this project.
 
 ## Project Layouts
 
-![weatherly-welcome](./assets/welcome-final.png)
+![weatherly-main](./assets/main-final.png)
 
-![weatherly-main](./assets/welcome-final.png)
 
 ## Project Comps
 
