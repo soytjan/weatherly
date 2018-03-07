@@ -63,6 +63,12 @@ npm test
 
 Amanda Tjan and Jeff Goodall are the software developers for this project. 
 
+## Project Layouts
+
+![weatherly-welcome](./assets/welcome-final.png)
+
+![weatherly-main](./assets/welcome-final.png)
+
 ## Project Comps
 
 We built out a wireframe for both the desktop and mobile version using Sketch.
