@@ -65,6 +65,7 @@ Amanda Tjan and Jeff Goodall are the software developers for this project.
 
 ## Project Layouts
 
+Final Layout for Weatherly
 ![weatherly-main](./assets/main-final.png)
 
 
@@ -80,10 +81,10 @@ We built out a wireframe for both the desktop and mobile version using Sketch.
 
 ### Icons
 
-thanks to 
+Thank you to 
 [ourdesignz](http://www.ourdesignz.com/weather-icon/) and 
 [Freepik](https://www.freepik.com/free-vector/weather-icons_1196720.htm#term=weather%20icons&page=1&position=10
-)
+) for the icons used in our project. 
 
 
 
